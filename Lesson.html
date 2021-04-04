@@ -1,0 +1,34 @@
+<html>
+
+
+    <body>
+	    <script>
+		   
+		   function onButtonPress() 
+		   {
+				var bullets = document.getElementById("bullets").value;
+				var dragons = document.getElementById("dragons").value;
+				var killdragons = dragons*3;
+				
+				if(bullets >= killdragons)
+				{
+					alert("победа"); 
+				}
+				else
+				{
+					alert("порожение");
+				}
+				
+			}
+		   
+	  
+			
+		    
+		</script>
+		    <input type="text" id="bullets">
+		    <input type="text" id="dragons">
+			<button onclick="onButtonPress()">Check!</button>
+    </body>
+
+
+</html>
